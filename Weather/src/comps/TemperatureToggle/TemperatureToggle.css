@@ -1,0 +1,25 @@
+.temp-toggle {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.temp-toggle button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.temp-toggle button.active {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+
+.temp-toggle button:hover {
+  background-color: #45a049;
+  color: white;
+}

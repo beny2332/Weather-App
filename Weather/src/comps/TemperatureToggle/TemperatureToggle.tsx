@@ -1,4 +1,3 @@
-import React from 'react';
 import './TemperatureToggle.css';
 
 interface TemperatureToggleProps {

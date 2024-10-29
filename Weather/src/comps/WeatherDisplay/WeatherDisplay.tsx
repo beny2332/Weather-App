@@ -1,4 +1,3 @@
-import React from "react"
 import TemperatureToggle from "../TemperatureToggle/TemperatureToggle"
 import "./WeatherDisplay.css"
 

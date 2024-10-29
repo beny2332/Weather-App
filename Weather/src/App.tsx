@@ -1,4 +1,3 @@
-import React from "react";
 import SearchBar from "./comps/SearchBar/SearchBar";
 import WeatherDisplay from "./comps/WeatherDisplay/WeatherDisplay";
 import { useWeather } from "./hooks/useWeather";

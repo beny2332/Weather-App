@@ -1,9 +1,9 @@
-import SearchBar from "./comps/SearchBar/SearchBar";
-import WeatherDisplay from "./comps/WeatherDisplay/WeatherDisplay";
-import { useWeather } from "./hooks/useWeather";
+import SearchBar from "./comps/SearchBar/SearchBar"
+import WeatherDisplay from "./comps/WeatherDisplay/WeatherDisplay"
+import { useWeather } from "./hooks/useWeather"
 
 export default function App() {
-  const { weatherData, unit, setUnit, fetchWeather } = useWeather();
+  const { weatherData, unit, setUnit, fetchWeather } = useWeather()
 
   return (
     <div className="app">
@@ -16,5 +16,5 @@ export default function App() {
         city={weatherData.city}
       />
     </div>
-  );
+  )
 }
